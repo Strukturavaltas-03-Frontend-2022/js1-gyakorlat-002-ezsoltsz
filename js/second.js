@@ -24,7 +24,7 @@ const checker = (someArray, a) => {
         index: someArray.find((item) => item === a)
         ? someArray.findIndex((item) => item === a)
         :-1,
-        allElementsAreNumbers: someArray.some((item) => isNaN(item)) ? false : true
+        allElementsAreNumbers: someArray.some((item) => isNaN(item)) ? false : true;
         someElementsAreNumbers: someArray.every((item) => isNaN(item))
         ? false
         : true,
